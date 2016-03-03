@@ -1,0 +1,94 @@
+.tlp_loading{
+    background: url('loading.gif') no-repeat center center;
+    padding: 11px;
+}
+
+.tlp-field {
+    float: right;
+    width: 75%;
+}
+.tlp-help{
+    background: #fff;
+    padding: 10px 20px;
+}
+.tplp-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: left;
+    width: 25%;
+}
+
+.tlp-field-holder {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.tlp-field textarea , .tlp-field input[type=text],.tlp-field input[type=url] , .tlp-field input[type=email]{
+	width: 75%;
+}
+
+.tlp-field span.desc {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+    font-style: italic;
+}
+
+.social-link label {
+    display: block;
+}
+
+.tlp-field .social-link {
+    margin-bottom: 10px;
+}
+
+.tlp_slink{
+    border-bottom: 1px solid #eee;
+}
+
+#response{
+	display: none;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 0;
+}
+.pro-feature {
+    color: #cd322d;
+    margin-bottom: 25px;
+}
+.tlp-content-holder {
+    display: inline-block;
+    width: 100%;
+}
+.tch-left {
+    float: left;
+    width: 50%;
+}
+.tch-right {
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.tch-right h3 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    color: #fff;
+}
+.tch-right .inside {
+    padding: 0 12px 12px;
+    line-height: 1.4em;
+    font-size: 13px;
+    position: relative;
+    margin: 6px 0 0;
+}
+.tch-right .postbox{
+    max-width: 400px;
+    background: #0071bd;
+    color: #fff;
+}
+.tch-right .postbox .button-primary {
+    background: #8cc63e;
+}

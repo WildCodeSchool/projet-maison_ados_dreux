@@ -1,0 +1,27 @@
+{% extends 'field.html' %}
+{% block field %}
+    {% if before_field %}<p class="md-before-field">{{before_field}}</p>{% endif %}
+    {% if options %}
+        <ul class="md-radio-list">
+            {% for option in options %}
+                <li class="md-radio-item">
+                    {% if before_option %}<p class="md-before-option">{{before_field}}</p>{% endif %}
+                    <input type="radio" name="{{name}}" value="{{option.value}}"{% if option.value == value %} checked="checked"{% endif %}>
+                    {% spaceless %}
+                        <span class="label">
+                            {% if option.label %}
+                                {{option.label}}
+                            {% else %}
+                                {{option.value}}
+                            {% endif %}
+                        </span>
+                    {% endspaceless %}
+                    {% if option.description %}<p class="description">{{option.description}}</p>{% endif %}
+                    {% if after_option %}<p class="md-after-option">{{after_field}}</p>{% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if after_field %}<p class="md-after-field">{{after_field}}</p>{% endif %}
+    {% if description %}<p class="description">{{description}}</p>{% endif %}
+{% endblock %}

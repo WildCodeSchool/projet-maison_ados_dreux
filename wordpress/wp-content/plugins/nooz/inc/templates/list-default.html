@@ -1,0 +1,76 @@
+{% if groups or items %}
+    <div class="nooz-{{type}}-list-wrapper nooz-list-wrapper{% if css_classes %} {{css_classes}}{% endif %}">
+        {% if groups %}
+            {% for group in groups %}
+                <div class="nooz-group-container">
+                    <h3 class="nooz-group-title nooz-group">{{group.title}}</h3>
+                    {% if group.items %}
+                        <ul class="nooz-list nooz-{{type}}">
+                            {% for item in group.items %}
+                                <li class="nooz-item nooz-item-{{cycle(['odd', 'even'], loop.index0)}}{% if item.excerpt %} nooz-item-with-excerpt{% endif %}{% if item.priority == 'pinned' %} nooz-item-pinned{% endif %}">
+                                    {% if item.image %}
+                                        <p class="nooz-image">
+                                            <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>
+                                                <img src="{{item.image}}" alt="">
+                                            </a>
+                                        </p>
+                                    {% endif %}
+                                    <time class="nooz-datetime" datetime="{{item.post_date}}">{{item.post_date_formatted}}</time>
+                                    {% if item.source %}
+                                        <p class="nooz-source">{{item.source}}</p>
+                                    {% endif %}
+                                    <p class="nooz-link">
+                                        <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>{{item.title}}</a>
+                                    </p>
+                                    {% if item.excerpt %}
+                                        <p class="nooz-excerpt">{{item.excerpt}}</p>
+                                    {% endif %}
+                                    {% if more_link %}
+                                        <p class="nooz-more-link">
+                                            <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>{{more_link}}</a>
+                                        </p>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <ul class="nooz-list nooz-{{type}}">
+                {% for item in items %}
+                    <li class="nooz-item nooz-item-{{cycle(['odd', 'even'], loop.index0)}}{% if item.excerpt %} nooz-item-with-excerpt{% endif %}{% if item.priority == 'pinned' %} nooz-item-pinned{% endif %}">
+                        {% if item.image %}
+                            <p class="nooz-image">
+                                <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>
+                                    <img src="{{item.image}}" alt="">
+                                </a>
+                            </p>
+                        {% endif %}
+                        <time class="nooz-datetime" datetime="{{item.post_date}}">{{item.post_date_formatted}}</time>
+                        {% if item.source %}
+                            <p class="nooz-source">{{item.source}}</p>
+                        {% endif %}
+                        <p class="nooz-link">
+                            <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>{{item.title}}</a>
+                        </p>
+                        {% if item.excerpt %}
+                            <p class="nooz-excerpt">{{item.excerpt}}</p>
+                        {% endif %}
+                        {% if more_link %}
+                            <p class="nooz-more-link">
+                                <a href="{{item.link}}"{% if item.target %} target="{{item.target}}"{% endif %}>{{more_link}}</a>
+                            </p>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% if previous_posts_link or next_posts_link %}
+            <div class="nooz-pagination">
+                {{previous_posts_link_html}}
+                {{next_posts_link_html}}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}

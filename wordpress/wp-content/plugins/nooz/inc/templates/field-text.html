@@ -1,0 +1,17 @@
+{% extends 'field.html' %}
+{% block field %}
+    <p>
+        {% if before_field %}<span class="md-before-field">{{before_field}}</span>{% endif %}
+        {% if options %}
+            <div class="md-field-group">
+                {% for option in options %}
+                    <input class="regular-text" type="text" id="{{option.name}}" name="{{option.name}}" value="{{option.value}}"{% if option.placeholder %} placeholder="{{option.placeholder}}{% endif %}" />
+                {% endfor %}
+            </div>
+        {% else %}
+            <input class="regular-text" type="text" id="{{name}}" name="{{name}}" value="{{value}}"{% if placeholder %} placeholder="{{placeholder}}{% endif %}" />
+        {% endif %}
+        {% if after_field %}<span class="md-after-field">{{after_field}}</span>{% endif %}
+    </p>
+    {% if description %}<p class="description">{{description}}</p>{% endif %}
+{% endblock %}

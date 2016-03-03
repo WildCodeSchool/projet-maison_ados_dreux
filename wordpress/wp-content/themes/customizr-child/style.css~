@@ -1,0 +1,6 @@
+/* Theme Name: customizr-child 
+Template: customizr
+Version: 1.0.0 Text 
+Domain: customizr-child*/
+
+@import url('../customizr/style.css');

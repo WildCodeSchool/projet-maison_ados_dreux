@@ -1,0 +1,104 @@
+<h2 id="shortcode-usage">Shortcode Usage</h2>
+<p>The plugin exposes a shortcode that allows you to insert a press release or press coverage list on a page. This shortcode is used on the pages initially created when the plugin is installed.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[nooz]</td>
+<td>Insert a press release or coverage list view.</td>
+</tr>
+</tbody>
+</table>
+<p>You can modify the list view on a per-list basis by adding shortcode attributes. This will override options set on the <a href="/wp-admin/admin.php?page=nooz">Settings Page</a>. If you do not specify an attribute value, the default will be used.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>The type of list view to insert. <em>Values are <code>release</code>, <code>coverage</code> or a post type.</em></td>
+<td>release</td>
+</tr>
+<tr>
+<td>class</td>
+<td>Add additional CSS class names, use a space to separate multiple class names.</td>
+<td></td>
+</tr>
+<tr>
+<td>count</td>
+<td>The number of items to show in the list.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>date_format</td>
+<td>The <a href="https://codex.wordpress.org/Formatting_Date_and_Time" target="_blank">date format</a> to use for each list item.</td>
+<td>M j, Y</td>
+</tr>
+<tr>
+<td>display</td>
+<td>Modifies the display of the list view. <em>Values are <code>list</code> or <code>group</code></em></td>
+<td>list</td>
+</tr>
+<tr>
+<td>featured_image</td>
+<td>The default featured image url to use for each item.</td>
+<td></td>
+</tr>
+<tr>
+<td>more_link</td>
+<td>The read more link text. The <code>use_more_link</code> option must be enabled.</td>
+<td>Read More</td>
+</tr>
+<tr>
+<td>next_link</td>
+<td>The next/forward link text. The <code>use_pagination</code> option must be enabled.</td>
+<td>Next&#xA0;Page&#xA0;&#xBB;</td>
+</tr>
+<tr>
+<td>previous_link</td>
+<td>The previous/back link text. The <code>use_pagination</code> option must be enabled.</td>
+<td>&#xAB;&#xA0;Previous&#xA0;Page</td>
+</tr>
+<tr>
+<td>target</td>
+<td>The link target to use for press coverage lists, default value applies to press-coverage.</td>
+<td>_blank</td>
+</tr>
+<tr>
+<td>use_excerpt</td>
+<td>Whether or not to use an available excerpt. <em>Values are <code>yes</code> or <code>no</code></em></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>use_more_link</td>
+<td>Enables a per item &quot;read more&quot; link. <em>Values are <code>yes</code> or <code>no</code></em></td>
+<td>no</td>
+</tr>
+<tr>
+<td>use_pagination</td>
+<td>Enables pagination. <em>Values are <code>yes</code> or <code>no</code></em></td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<p>Example usage of the <code>[nooz]</code> shortcode:</p>
+<pre><code class="lang-html">[nooz type=&quot;release&quot; display=&quot;group&quot;]
+
+[nooz type=&quot;release&quot; class=&quot;custom-class&quot; count=&quot;10&quot; date_format=&quot;Y-m-d&quot; display=&quot;group&quot; use_excerpt=&quot;no&quot;]
+
+[nooz type=&quot;coverage&quot; date_format=&quot;Y-m-d&quot; target=&quot;&quot; use_more_link=&quot;yes&quot; use_pagination=&quot;yes&quot;]
+
+[nooz type=&quot;coverage&quot; class=&quot;custom-class&quot; count=&quot;10&quot; date_format=&quot;Y-m-d&quot; display=&quot;group&quot; use_excerpt=&quot;no&quot; target=&quot;popup&quot;]
+
+[nooz type=&quot;post&quot; featured_image=&quot;/wp-content/uploads/featured_image.jpg&quot;]
+</code></pre>

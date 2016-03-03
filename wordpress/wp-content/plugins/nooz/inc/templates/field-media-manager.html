@@ -1,0 +1,14 @@
+{% extends 'field.html' %}
+{% block field %}
+    <div class="md-media-controls" data-media-title="{{media.title}}" data-media-button="{{media.button}}">
+        <div id="{{name}}_thumb" class="md-media-thumb" {% if not media.url %}style="display:none;"{% endif %}>
+            {% if media.url %}<img src="{{media.url}}">{% endif %}
+        </div>
+        <div class="md-field">
+            <input class="md-media-input" type="hidden" name="{{name}}" value="{{value}}">
+            <a {% if value %}style="display:none;"{% endif %} href="#" class="button md-media-select">{{labels.select_button}}</a>
+            <a {% if not value %}style="display:none;"{% endif %} href="#" class="button md-media-remove">{{labels.remove_button}}</a>
+            {% if description %}<p class="description">{{description}}</p>{% endif %}
+        </div>
+    </div>
+{% endblock %}

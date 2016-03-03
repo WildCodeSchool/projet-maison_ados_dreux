@@ -1,0 +1,91 @@
+/* Navbar color */
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+	background-color: black;
+	color: white;
+    box-shadow:1px 1px 3px black;
+}
+
+.navbar .nav > li:hover:nth-child(1) > a {
+    background-color: black;
+    box-shadow:1px 1px 3px black;
+    color: white;
+}
+
+.navbar .nav > li:hover:nth-child(3) > a {
+    background-color: orange;
+    box-shadow:1px 1px 3px black;
+    color:white;
+}
+
+.navbar .nav > li:hover:nth-child(4) > a {
+    background-color: green; 
+    box-shadow:1px 1px 3px black;
+    color:white;
+} 
+.navbar .nav > li:hover:nth-child(5) > a{
+    background-color: violet; 
+    box-shadow:1px 1px 3px black;
+    color:white;
+} 
+
+.tc-header {
+    background-color:#A0CFEB;
+    font-weight:bold;
+    border : 1px black solid;
+}
+
+.sticky-enabled .tc-header{
+    background-color:rgba(160, 207, 235, 0.9);
+}
+
+.navbar .nav > li > a {
+    color:black;
+    text-shadow:none;
+}
+/* ----- */
+
+
+
+.so-widget-sow-image-sow-image-46f30e3d504b .sow-image-container .so-widget-image {
+    box-shadow:1px 1px 2px black;
+}
+
+.btn-link:focus, .btn-link:hover {
+    box-shadow: 1px 1px 3px black;
+}
+
+#customizr-slider-2 {
+    box-shadow: 1px 1px 3px black; !important
+}
+
+.btn-link:focus, .btn-link:hover, a:focus, a:hover {
+    outline:none;
+}
+
+
+.logoo {
+    border-top:1px black solid;
+    box-shadow:1px 1px 3px black;
+}
+
+footer#footer .colophon {
+    background-color:#A0CFEB;
+}
+
+
+/* FAQ STYLE */
+.ewd-ufaq-post-margin-symbol span {
+    display:none;
+}
+
+.ufaq-faq-title h4 {
+    font-family:cursive;
+}
+
+div.ufaq-faq-post p {
+    font-style:italic;
+}
+
+/* END FAQ STYLE */
+
+

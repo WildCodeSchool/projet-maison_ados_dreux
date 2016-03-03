@@ -1,0 +1,153 @@
+.ewd-ufaq-hidden {
+  display:none;
+}
+
+.ufaq-faq-category-title-toggle {
+  cursor: pointer;
+}
+
+.ufaq-faq-category-body-hidden {
+  display: none;
+}
+
+.ewd-ufaq-clear {
+  clear:both;
+}
+
+.ewd-ufaq-post-margin{
+  text-decoration: none;
+}
+
+.ewd-ufaq-post-margin-symbol{
+    text-decoration: none;
+}
+
+.ufaq-permalink {
+  margin-left: 10px;
+}
+.ufaq-permalink-image {
+	background: url("../images/insert_link.png");
+	height: 21px;
+	width: 30px;
+	margin-top: -25px;
+	margin-left: 70px;
+}
+
+.ewd-ufaq-author-date {
+}
+
+.ewd-ufaq-author {
+  font-weight: 600;
+}
+.ewd-ufaq-date {
+  font-weight: 600;
+}
+.ufaq-faq-categories, .ufaq-faq-tags{
+}
+
+.ufaq {}
+/*.ufaq-faq-title {
+  cursor:pointer;
+}*/
+.ufaq-faq-category-title {
+  width: 100%;
+  clear: both;
+}
+.ufaq-faq-body {
+  padding:10px 25px;
+  padding-left: 55px;
+}
+.ufaq-faq-search{
+  margin:5px 0 !important;
+}
+.ewd-otp-field-label{
+width: auto !important;
+}
+.ufaq-text-input {
+  border-radius: 0 !important;
+  margin:15px !important;
+}
+.ewd-ufaq-submit{
+border-radius: 0 !important;
+}
+.ufaq-faq-header{
+  margin:10px;
+}
+.ufaq-faq-header a:hover{
+  text-decoration: none;
+}
+.ewd-ufaq-post-margin-symbol{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width:35px;
+  height: 35px;
+  margin-right: 15px;
+  padding: 2px 0px 0px 2px;
+  line-height: 1;
+}
+.ewd-ufaq-post-margin-symbol span{
+display: inline-block;
+font-size: 30px;
+margin:0 auto;
+}
+.ufaq-faq-title-text {
+  float:left;
+  width: 90%;
+}
+.ufaq-faq-title h4 {
+  display:inline-block;
+  margin:5px !important;
+}
+/***********************
+Color Block Style
+***********************/
+.ufaq-faq-display-style-Color_Block .ewd-ufaq-post-margin-symbol {
+  background-color: #1188cc;
+  color: #ffffff; 
+}
+
+.ewd-ufaq-Circle {
+  border-radius: 18px;
+}
+
+.ewd-ufaq-Square {
+  border-radius: 0px;
+}
+
+
+/***********************
+Block Style
+***********************/
+.ufaq-faq-div {
+  margin: 2px 0;
+  padding:2px 0;
+  clear: both;
+}
+.ufaq-faq-toggle:hover, .ufaq-faq-toggle a:hover{
+  cursor: pointer; 
+  cursor: hand; 
+  text-decoration: none;
+}
+.ufaq-faq-title{
+}
+.ufaq-faq-display-style-Block a, .ufaq-faq-display-style-Block a:visited, .ufaq-faq-display-style-Block a:active{
+  text-decoration: none;
+}
+.ufaq-faq-display-style-Block:hover, .ufaq-faq-display-style-Block:hover a, .ufaq-faq-display-style-Block:hover h4 {
+  text-decoration: none !important;
+  color:#fff !important;
+  background: #1188cc;
+}
+.ufaq-faq-display-style-Block.ewd-ufaq-post-active, .ufaq-faq-display-style-Block.ewd-ufaq-post-active a{
+  color:#fff !important;
+  background: #1188cc;
+}
+
+
+/***********************
+List Style
+***********************/
+.ufaq-faq-header-title a{
+  display: inline-block;
+}

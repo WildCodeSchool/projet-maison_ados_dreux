@@ -1,0 +1,145 @@
+/* settings styles */
+body h2.md-tabs a.nav-tab {
+    font-weight: 600;
+}
+body h2.md-tabs a.nav-tab-active {
+    border-bottom: 1px solid #f1f1f1;
+}
+.wrap h2.md-settings-page-title {
+    margin-bottom: 5px;
+}
+.md-tiny-field input,
+.md-tiny-field select {
+    width: 80px;
+}
+#md-release-slug input,
+#md-coverage-target input {
+    width: 200px;
+}
+.md-radio-list {
+    margin: 0;
+}
+.md-radio-item {
+    margin-bottom: 1rem;
+    padding-left: 20px;
+}
+.md-radio-item input {
+    margin-left: -20px;
+}
+.md-settings-featured-image input {
+    width: 30rem;
+}
+.md-connected-field th, .md-connected-field td {
+    padding-top: 0;
+}
+.nooz-admin-pagination-links input {
+    width: 12.25em;
+}
+/* edit post styles */
+.post-type-nooz_release #wpalchemy-content-apt,
+.post-type-nooz_coverage #wpalchemy-content-apt {
+    margin-top: 20px;
+}
+/**
+ * avoiding the use of names with underscores, for more info see:
+ * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Underscores_in_class_and_ID_Names
+ */
+.post-type-nooz_release #wpalchemy-content-apt input {
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3px 8px;
+}
+.post-type-nooz_release .wpalchemy-meta input[type="text"],
+.post-type-nooz_coverage .wpalchemy-meta input[type="text"] {
+    width: 100%;
+}
+.post-type-nooz_release .wpalchemy-field label,
+.post-type-nooz_coverage .wpalchemy-field label {
+    font-weight: bold;
+}
+.post-type-nooz_release .wpalchemy-field label span,
+.post-type-nooz_coverage .wpalchemy-field label span {
+    color: #999;
+    font-weight: normal;
+}
+.post-type-nooz_release .wpalchemy-field p,
+.post-type-nooz_coverage .wpalchemy-field p {
+    color: #999;
+    font-size: 0.9em;
+    margin-top: 0;
+}
+.nooz-contextual-help .help-tab-content {
+    margin-right: 0;
+}
+.nooz-contextual-help .help-tab-content th {
+    text-align: left;
+}
+.nooz-contextual-help .help-tab-content table {
+    background-color: #fff;
+    border-collapse: collapse;
+}
+.nooz-contextual-help .help-tab-content table,
+.nooz-contextual-help .help-tab-content th,
+.nooz-contextual-help .help-tab-content td {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+.nooz-contextual-help pre {
+    margin: 2em 0;
+}
+.nooz-contextual-help .hljs {
+    -webkit-box-shadow: 0 3px 6px -6px #777;
+    -moz-box-shadow: 0 3px 6px -6px #777;
+    box-shadow: 0 3px 6px -6px #777;
+    padding: 1em;
+}
+.md-media-thumb {
+    background: transparent url(checkered-bg.png);
+    background-size: 6px 6px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    float: left;
+    height: 84px;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+}
+.md-media-thumb img {
+    height: 110%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.md-field {
+    float: left;
+}
+#md-post-priority::before {
+    color: #82878C;
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    left: -1px;
+    padding: 0px 2px 0px 0px;
+    position: relative;
+    top: 0px;
+    vertical-align: top;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+}
+#mdnooz_post_priority {
+    vertical-align: top;
+}
+.post-type-nooz_release #menu_order,
+.post-type-nooz_coverage #menu_order {
+    line-height: 0;
+    padding: 6px 5px;
+    vertical-align: top;
+    width: 60px;
+}
+.md-misc-pub-section-display {
+    font-weight: bold;
+}

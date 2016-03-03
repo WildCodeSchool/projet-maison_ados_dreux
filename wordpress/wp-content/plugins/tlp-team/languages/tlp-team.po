@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version:  TLP Team\n"
+POT-Creation-Date: 2015-08-01 19:47+0700
+PO-Revision-Date: 2015-08-012 19:50+0700
+"Last-Translator: \n"
+"Language-Team:  <mamunnu@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: /lib/views/help.php:8
+msgid "TLP Team Help"
+msgstr ""
+
+#: /lib/views/help.php:13
+msgid "Short Code :"
+msgstr ""
+
+#: /lib/views/help.php:14
+msgid "col = The number of column you want to create"
+msgstr ""
+
+#: /lib/views/help.php:15
+msgid "member = The number of the member, you want to display"
+msgstr ""
+
+#: /lib/views/help.php:15
+msgid "More Help"
+msgstr ""
+
+#: /lib/widgets/TLPwidget.php:17
+msgid "Display the Team."
+msgstr ""
+
+#: /lib/widgets/TLPwidget.php:18
+msgid "TPL Team"
+msgstr ""
+
+#: /lib/widgets/TLPwidget.php:90
+msgid "No member found"
+msgstr ""
+
+#: /lib/widgets/TLPwidget.php:107
+msgid "Title:"
+msgstr ""
+
+#: /lib/widgets/TLPwidget.php:110
+msgid "Number of number to show:"
+msgstr ""
+
+#: /lib/classes/TPLSupprot.php:20
+msgid "Facebook"
+msgstr ""
+
+#: /lib/classes/TPLSupprot.php:21
+msgid "Twitter"
+msgstr ""
+
+#: /lib/classes/TPLSupprot.php:22
+msgid "LinkedIn"
+msgstr ""
+
+#: /lib/classes/TPLfrontEnd.php:30
+msgid "Tel:"
+msgstr ""
+
+#: /lib/classes/TPLfrontEnd.php:32
+msgid "Location:"
+msgstr ""
+
+#: /lib/classes/TPLfrontEnd.php:34
+msgid "Email:"
+msgstr ""
+
+#: /lib/classes/TPLfrontEnd.php:36
+msgid "URL:"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php:62
+msgid "TLP Team"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php:63
+msgid "Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php:64
+msgid "TLP Team"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Parent Member:"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "All Members"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Add New Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Add Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "New Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Edit Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Update Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "View Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Search Member"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Not found"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Not found in Trash"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Short Bio:"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Add some short bio"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Designations"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Email"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Personal Web URL"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Telephone"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Location"
+msgstr ""
+
+#: /lib/classes/TPLsettings.php
+msgid "Social Links"
+msgstr ""
